@@ -211,7 +211,21 @@ Audit-Analytics-Portfolio
 * ใช้ Excel และ Python เพื่อวิเคราะห์ข้อมูลทางบัญชี
 * ตรวจพบรายการผิดปกติและจัดทำเอกสารประกอบการตรวจสอบ
 * สรุปผลการตรวจสอบและจัดทำรายงานอย่างเป็นระบบ
-
+┌────────────────────────────────────────────┐
+│ 📊 AUDIT ANALYTICS DASHBOARD               │
+├────────────────────────────────────────────┤
+│ 📑 Working Papers      15                  │
+│ 📊 Analytics Tests     10                  │
+│ 📂 Raw Data Files      20+                 │
+│ ⚠️ Exceptions          9                   │
+│ ✅ Audit Areas         15                  │
+│ 💻 Excel + Python      ✔                  │
+├────────────────────────────────────────────┤
+│ Revenue Tested         1,240 Transactions  │
+│ Payroll Tested         12 / 145 Employees  │
+│ Current Ratio          1.56x               │
+│ Gross Profit Margin    30%                 │
+└────────────────────────────────────────────┘
 ---
 
 # 👩‍💼 ผู้จัดทำ
