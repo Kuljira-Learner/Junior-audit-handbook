@@ -3,6 +3,7 @@
 ## การจำลองการตรวจสอบงบการเงิน (Financial Statement Audit Simulation)
 
 > **พัฒนาเพื่อฝึกทักษะการตรวจสอบบัญชี (Audit) และการวิเคราะห์ข้อมูล (Audit Analytics) ด้วย Microsoft Excel และ Python**
+![Uploading image.png…]()
 
 ---
 
