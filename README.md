@@ -1,244 +1,177 @@
-# 📊 Audit Analytics Portfolio
+| # 📊 Financial Statement Audit Portfolio
 
-## การจำลองการตรวจสอบงบการเงิน (Financial Statement Audit Simulation)
+> **Author:** Kuljira Pulkham
 
-> **พัฒนาเพื่อฝึกทักษะการตรวจสอบบัญชี (Audit) และการวิเคราะห์ข้อมูล (Audit Analytics) ด้วย Microsoft Excel และ Python**
-![Uploading image.png…]()
+A professional portfolio demonstrating **Financial Statement Audit** working papers, audit documentation, and Excel-based analytical procedures across key financial statement areas.
 
----
-
-## 👋 ยินดีต้อนรับ
-
-โปรเจกต์นี้เป็นการจำลองการตรวจสอบงบการเงินของบริษัท **ABC Manufacturing Co., Ltd.** โดยอ้างอิงกระบวนการทำงานของผู้สอบบัญชีในบริษัท Big 4 และบริษัทตรวจสอบบัญชีชั้นนำ
-
-ภายในโปรเจกต์ประกอบด้วยข้อมูลทางบัญชี (Raw Data), เอกสารประกอบการตรวจสอบ (Audit Working Papers), การวิเคราะห์ข้อมูล (Data Analytics) และการจัดทำรายงานสรุปผลการตรวจสอบ เพื่อแสดงขั้นตอนการทำงานของ **Junior Audit Associate** ตั้งแต่เริ่มต้นจนจบกระบวนการตรวจสอบ
+This repository showcases practical audit skills using **Microsoft Excel**, following the typical workflow of an **Audit Associate**, from risk assessment and substantive testing to analytical review and audit conclusions.
 
 ---
 
-# 🎯 วัตถุประสงค์ของโครงการ
+# 🎯 Objectives
 
-โครงการนี้จัดทำขึ้นเพื่อ
-
-* ฝึกการจัดทำ Audit Working Papers ตามแนวทางการทำงานจริง
-* เรียนรู้การตรวจสอบงบการเงินในแต่ละวงจรบัญชี
-* ประยุกต์ใช้ Excel และ Python ในการวิเคราะห์ข้อมูลทางบัญชี
-* ฝึกคิด วิเคราะห์ และสรุปผลการตรวจสอบอย่างเป็นระบบ
-* สร้าง Portfolio เพื่อใช้สมัครงานด้าน Audit และ Accounting
+- Demonstrate practical audit working paper preparation.
+- Apply substantive audit procedures across major financial statement areas.
+- Perform analytical review using Excel formulas, Pivot Tables, and Dashboards.
+- Develop professional audit documentation aligned with audit practices.
+- Build a portfolio for **Audit Assistant / Audit Associate** positions.
 
 ---
 
-# 🧾 ขอบเขตการตรวจสอบ
+# 🛠 Tools & Skills
 
-โครงการครอบคลุมการตรวจสอบบัญชีในหัวข้อสำคัญ ดังนี้
+### Microsoft Excel
 
-| ลำดับ | หัวข้อ                           | วัตถุประสงค์                             |
-| ----: | -------------------------------- | ---------------------------------------- |
-|    01 | 💰 Cash & Bank                   | ตรวจสอบเงินสดและเงินฝากธนาคาร            |
-|    02 | 💵 Revenue                       | ตรวจสอบการรับรู้รายได้และ Cut-off        |
-|    03 | 📒 Accounts Receivable           | วิเคราะห์ลูกหนี้และการยืนยันยอด          |
-|    04 | 📦 Inventory                     | ตรวจสอบสินค้าคงเหลือและการตีราคา         |
-|    05 | 🏭 Property, Plant & Equipment   | ตรวจสอบสินทรัพย์ถาวรและค่าเสื่อมราคา     |
-|    06 | 💳 Accounts Payable              | ตรวจสอบเจ้าหนี้การค้า                    |
-|    07 | 👨‍💼 Payroll                    | ตรวจสอบเงินเดือนและค่าจ้าง               |
-|    08 | 🧾 Tax                           | ตรวจสอบภาษีเงินได้นิติบุคคล              |
-|    09 | 📈 Financial Statement Analytics | วิเคราะห์งบการเงินและอัตราส่วนทางการเงิน |
-|    10 | 🛡️ Internal Control Testing     | ประเมินระบบควบคุมภายใน                   |
+- Pivot Table
+- Pivot Chart
+- XLOOKUP
+- SUMIFS
+- COUNTIFS
+- IF
+- Conditional Formatting
+- Data Validation
+- Dashboard Design
+
+### Audit Skills
+
+- Risk Assessment
+- Lead Schedule
+- Audit Program
+- Substantive Testing
+- Analytical Review
+- Financial Statement Analysis
+- Audit Documentation
+- Internal Control Review
+
+### Version Control
+
+- Git
+- GitHub
 
 ---
 
-# 🗂 โครงสร้างโปรเจกต์
+# 📁 Repository Structure
 
 ```text
-Audit-Analytics-Portfolio
+Financial-Statement-Audit-Portfolio/
 │
-├── 📄 README.md
-│
-├── 📁 Raw Data
-│   ├── Trial Balance
-│   ├── General Ledger
-│   ├── Bank Statement
-│   ├── Sales Invoice
-│   ├── Purchase Invoice
-│   ├── Inventory Records
-│   └── Payroll Data
-│
-├── 📁 Working Papers
-│   ├── 01-Cash
-│   ├── 02-Revenue
-│   ├── 03-Accounts Receivable
-│   ├── 04-Inventory
-│   ├── 05-PPE
-│   ├── 06-Accounts Payable
-│   ├── 07-Payroll
-│   ├── 08-Tax
-│   ├── 09-Financial Statement Analytics
-│   └── 10-Internal Control
-│
-├── 📁 Python Notebooks
-│
-├── 📁 Reports
-│
-└── 📁 Images
+├── 01-Cash-Bank/
+├── 02-Revenue/
+├── 03-Accounts-Receivable/
+├── 04-Inventory/
+├── 05-Cost-of-Goods-Sold/
+├── 06-Purchases/
+├── 07-Accounts-Payable/
+├── 08-Operating-Expenses/
+├── 09-Property-Plant-and-Equipment/
+├── 10-Payroll/
+├── 11-Tax/
+├── 12-Loans/
+├── 13-Equity/
+├── 14-Financial-Statements/
+└── 15-Internal-Control/
 ```
 
 ---
 
-# 🔍 วิธีการตรวจสอบ (Audit Procedures)
+# 📂 Audit Areas
 
-| หัวข้อ                 | วิธีการที่ใช้                                    |
-| ---------------------- | ------------------------------------------------ |
-| 💰 Cash                | Bank Reconciliation, Cash Count                  |
-| 💵 Revenue             | Duplicate Test, Cut-off Testing                  |
-| 📒 Accounts Receivable | Aging Analysis, Subsequent Receipt, Confirmation |
-| 📦 Inventory           | Roll-forward, Inventory Count, NRV Testing       |
-| 🏭 PPE                 | Depreciation Recalculation                       |
-| 💳 Accounts Payable    | Supplier Reconciliation                          |
-| 👨‍💼 Payroll          | Gross-to-Net Recalculation                       |
-| 🧾 Tax                 | Corporate Income Tax Recalculation               |
-| 📈 Financial Statement | Ratio Analysis และ Trend Analysis                |
-| 🛡️ Internal Control   | Walkthrough และ Control Testing                  |
-
----
-
-# 📊 Audit Analytics
-
-ภายในโปรเจกต์มีการประยุกต์ใช้เทคนิคการวิเคราะห์ข้อมูลเพื่อสนับสนุนการตรวจสอบบัญชี ได้แก่
-
-✅ Duplicate Invoice Detection
-
-✅ Revenue Cut-off Testing
-
-✅ Journal Entry Testing
-
-✅ Accounts Receivable Aging
-
-✅ Inventory Roll-forward
-
-✅ Financial Ratio Analysis
-
-✅ Trend Analysis
-
-✅ Exception Report
-
-✅ Bank Reconciliation
-
-✅ Dashboard Visualization
+| No. | Audit Area | Repository |
+|-----|------------|------------|
+| 01 | Cash & Bank | [View](./01-Cash-Bank) |
+| 02 | Revenue | [View](./02-Revenue) |
+| 03 | Accounts Receivable | [View](./03-Accounts-Receivable) |
+| 04 | Inventory | [View](./04-Inventory) |
+| 05 | Cost of Goods Sold | [View](./05-Cost-of-Goods-Sold) |
+| 06 | Purchases | [View](./06-Purchases) |
+| 07 | Accounts Payable | [View](./07-Accounts-Payable) |
+| 08 | Operating Expenses | [View](./08-Operating-Expenses) |
+| 09 | Property, Plant & Equipment | [View](./09-Property-Plant-and-Equipment) |
+| 10 | Payroll | [View](./10-Payroll) |
+| 11 | Tax | [View](./11-Tax) |
+| 12 | Loans | [View](./12-Loans) |
+| 13 | Equity | [View](./13-Equity) |
+| 14 | Financial Statements | [View](./14-Financial-Statements) |
+| 15 | Internal Control (COSO) | [View](./15-Internal-Control) |
 
 ---
 
-# 🛠 เครื่องมือที่ใช้
+# 🚀 Project Features
 
-| โปรแกรม         | การใช้งาน                                  |
-| --------------- | ------------------------------------------ |
-| Microsoft Excel | Audit Working Papers และการวิเคราะห์ข้อมูล |
-| Pivot Table     | สรุปข้อมูล                                 |
-| Power Query     | จัดเตรียมข้อมูล                            |
-| Python          | วิเคราะห์ข้อมูลและตรวจสอบรายการผิดปกติ     |
-| Pandas          | Data Cleaning และ Data Analysis            |
-| NumPy           | คำนวณข้อมูล                                |
-| Matplotlib      | สร้างกราฟและ Dashboard                     |
+Each audit area includes:
 
----
-
-# 📂 Working Papers
-
-| Working Paper | รายละเอียด                               |
-| ------------- | ---------------------------------------- |
-| A-100         | Cash Lead Schedule & Bank Reconciliation |
-| B-100         | Revenue Audit                            |
-| C-100         | Accounts Receivable Audit                |
-| D-100         | Inventory Audit                          |
-| E-100         | Property, Plant & Equipment              |
-| F-100         | Accounts Payable Audit                   |
-| G-100         | Payroll Audit                            |
-| H-100         | Tax Audit                                |
-| I-100         | Financial Statement Analytics            |
-| J-100         | Internal Control Testing                 |
+- 📄 README Documentation
+- 📑 Audit Working Paper
+- 📋 Lead Schedule
+- ⚠️ Risk Assessment
+- 📝 Audit Program
+- ✔️ Substantive Testing
+- 📈 Analytical Review
+- 📊 Pivot Tables
+- 📉 Excel Dashboard
+- 📌 Audit Conclusion
 
 ---
 
-# 📚 มาตรฐานการสอบบัญชีที่เกี่ยวข้อง
+# 📈 Dashboard Overview
 
-* ISA 315 – Risk Assessment
-* ISA 330 – Responses to Assessed Risks
-* ISA 500 – Audit Evidence
-* ISA 520 – Analytical Procedures
-* ISA 530 – Audit Sampling
-* ISA 550 – Related Parties
-* ISA 560 – Subsequent Events
-* ISA 570 – Going Concern
-* ISA 580 – Written Representations
-* ISA 700 – Forming an Opinion
+Each project includes an Excel dashboard designed to summarize audit results using Pivot Tables, Pivot Charts, KPIs, and analytical procedures.
 
----
+Typical dashboards include:
 
-# 🎯 ทักษะที่ได้รับ
-
-* Audit Working Papers
-* Financial Statement Audit
-* Substantive Testing
-* Analytical Procedures
-* Risk Assessment
-* Audit Documentation
-* Advanced Microsoft Excel
-* Python for Audit Analytics
-* Data Cleaning
-* Financial Analysis
-* Internal Control Evaluation
+- KPI Summary
+- Monthly Trend Analysis
+- Account Balance Analysis
+- Variance Analysis
+- Aging Analysis (where applicable)
+- Top Customers / Suppliers
+- Financial Ratios (where applicable)
+- Risk Summary
+- Audit Conclusion
 
 ---
 
-# 📷 ตัวอย่างผลงาน
+# 📸 Preview
 
-ภายใน Repository นี้ประกอบด้วย
+> Screenshots of dashboards and working papers will be added here.
 
-* 📊 Dashboard การวิเคราะห์ข้อมูล
-* 📑 Audit Working Papers
-* 📈 Financial Analytics
-* 🏦 Bank Reconciliation
-* 📦 Inventory Analysis
-* 💵 Revenue Testing
-* 📒 Accounts Receivable Aging
-* 🧮 Python Notebook
+### Example Dashboard
 
----
+![Dashboard](images/dashboard.png)
 
-# ✅ ผลลัพธ์ของโครงการ
+### Example Working Paper
 
-หลังจากดำเนินโครงการนี้ ผู้จัดทำสามารถ
-
-* จำลองการตรวจสอบงบการเงินได้ครบทุกขั้นตอน
-* จัดทำ Audit Working Papers ตามแนวทางการปฏิบัติงานของผู้สอบบัญชี
-* ใช้ Excel และ Python เพื่อวิเคราะห์ข้อมูลทางบัญชี
-* ตรวจพบรายการผิดปกติและจัดทำเอกสารประกอบการตรวจสอบ
-* สรุปผลการตรวจสอบและจัดทำรายงานอย่างเป็นระบบ
-┌────────────────────────────────────────────┐
-│ 📊 AUDIT ANALYTICS DASHBOARD               │
-├────────────────────────────────────────────┤
-│ 📑 Working Papers      15                  │
-│ 📊 Analytics Tests     10                  │
-│ 📂 Raw Data Files      20+                 │
-│ ⚠️ Exceptions          9                   │
-│ ✅ Audit Areas         15                  │
-│ 💻 Excel + Python      ✔                  │
-├────────────────────────────────────────────┤
-│ Revenue Tested         1,240 Transactions  │
-│ Payroll Tested         12 / 145 Employees  │
-│ Current Ratio          1.56x               │
-│ Gross Profit Margin    30%                 │
-└────────────────────────────────────────────┘
----
-
-# 👩‍💼 ผู้จัดทำ
-
-**Kuljira Pulkham**
-
-Bachelor of Accountancy
-
-Audit Analytics Portfolio
-
-Microsoft Excel • Python • Financial Statement Audit • Data Analytics
+![Working Paper](images/working-paper.png)
 
 ---
 
-> **หมายเหตุ:** โครงการนี้จัดทำขึ้นเพื่อการศึกษา การพัฒนาทักษะด้านการตรวจสอบบัญชี และการสร้าง Portfolio สำหรับการสมัครงาน โดยใช้ข้อมูลจำลองเพื่อการเรียนรู้เท่านั้น
+# 📚 Learning Outcomes
+
+Through this portfolio, I developed practical experience in:
+
+- Financial Statement Audit
+- Audit Working Paper Preparation
+- Excel-based Audit Analytics
+- Financial Statement Analysis
+- Risk Assessment
+- Audit Documentation
+- Internal Control Evaluation
+- Professional Documentation using GitHub
+
+---
+
+# ⚠️ Disclaimer
+
+This portfolio is created for educational and professional portfolio purposes only.
+
+All working papers are based on anonymized or sample datasets. No confidential client information is included.
+
+---
+
+# 📬 Contact
+
+**Author:** Kuljira Pulkham
+
+GitHub: https://github.com/Kuljira-Learner
+
+LinkedIn: *(Add your LinkedIn profile here if available.)*
